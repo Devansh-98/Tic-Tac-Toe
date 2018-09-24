@@ -1,0 +1,73 @@
+<html>
+<head>
+  <title>Tic-Tac-Toe</title>
+
+  <!--Adding js file-->
+  <script src = "js_Tic-Tac-Toe.js">
+  </script>
+
+  <!-- importing My css-->
+  <link rel="stylesheet"
+  type="text/css"
+  href="css_Tic-Tac-Toe.css"
+  />
+
+</head>
+<body>
+  <center>
+    <div class = "h1">
+      Tic-Tac-Toe
+    </div>
+    <div class = "container">
+      <select id="Player_choice" onchange="player_choice()" class = "Drop_down"><!--Allowing user to select game mode-->
+        <option value="1">1 Player</option>
+        <option value="2">2 Player</option>
+      </select>
+
+      <select id="Player_turn" onchange="setPlayerTurn()" class = "Drop_down"><!--Allowing user to select his turn-->
+        <option value="1">1st</option>
+        <option value="2">2nd</option>
+      </select>
+
+      <select id="player_marker" onchange="setPlayerMarker()" class = "Drop_down"><!--Allowing user to select his marker-->
+        <option value="cross">cross</option>
+        <option value="zero">zero</option>
+      </select>
+      <!--Buttons for controling flow of game-->
+      <button type = "submit" id = "start_game" onclick = "startGame()" class = "Drop_down">Start</button>
+      <button type="reset" id = "reset" onclick="reset_game()" class = "Drop_down">RESET</button>
+      <button type="reset" id = "home" onclick="view_home()" class = "Drop_down">HOME</button>
+    </div>
+    <!--Game Board-->
+    <div class = "board" id = "board_1">
+      <br>
+      <div class="row">
+        <div class="column">
+          <img id = "0"  onclick="changeImage(0)"  src = "blank.jpeg">
+          <img id = "1"  onclick="changeImage(1)"  src = "blank.jpeg">
+          <img id = "2"  onclick="changeImage(2)"  src = "blank.jpeg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img id = "3"  onclick="changeImage(3)"  src = "blank.jpeg">
+          <img id = "4"  onclick="changeImage(4)"  src = "blank.jpeg">
+          <img id = "5"  onclick="changeImage(5)"  src = "blank.jpeg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img id = "6"  onclick="changeImage(6)"  src = "blank.jpeg">
+          <img id = "7"  onclick="changeImage(7)"  src = "blank.jpeg">
+          <img id = "8"  onclick="changeImage(8)"  src = "blank.jpeg">
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--Result-->
+    <div class = 'h3' id = "Result">
+      Game hasen't yet started.
+    </div>
+  </center>
+</body>
+</html>

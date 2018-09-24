@@ -1,0 +1,81 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+
+/* The heart of the matter */
+.btn-matrix > .btn:nth-child(3n+4) {
+  clear: left;
+  margin-left: 0;
+}
+.btn-matrix > .btn:nth-child(n+4) {
+  margin-top: -1px;
+}
+.btn-matrix > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.btn-matrix > .btn:nth-child(3) {
+  border-top-right-radius: 4px !important;
+}
+.btn-matrix > .btn:nth-last-child(3) {
+  border-bottom-left-radius: 4px !important;
+}
+.btn-matrix > .btn:last-child {
+  border-top-right-radius: 0;
+}
+
+/* Decorations */
+.btn-matrix {
+  margin: 20px;
+}
+.button-temp{
+  border-style: solid;
+
+}
+.board {
+  height: 60%;
+  width: 50%;
+  padding: 0;
+}
+.row {
+  padding: 0;
+}
+
+
+.column {
+  padding: 0;
+  max-width: 100%;
+}
+
+.column img {
+  border-width: medium;
+  padding: 0;
+  border-style: solid;
+  border-color: Green;
+  height: 33%;
+  width: 33%;
+  vertical-align: middle;
+}
+.h3{
+  margin-top:40px;
+  font-size: 30px;
+  color: green;
+}
+.h1{
+  color: green;
+}
+.Drop_down{
+    background-color: green  ; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Drop_down:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Drop_down_hidden{
+  display: none;
+}
