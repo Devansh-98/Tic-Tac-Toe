@@ -27,4 +27,3 @@ This will show a window where you can select:
     </li>
 </ul>
 </ol>
-![Alt text](./Game_started.png? raw=true "Optional Title")
