@@ -1,3 +1,29 @@
 # Tic-Tac-Toe
-This is a Tic-Tac-Toe game developed using HTML, CSS and Javascript. Game offers both player vs player and player vs Computer 
-mode. In player vs computer mode moves of computer are decided by an Algorithm which is written in JS. On opening index.html a disabled game board is displayed along with some options for starting game. Once the game is started A text box below the board shows the game status. User can click on the cell to make their move on that cell. When game finishes an alert tells the result of the game and game board again gets disabled. To restart the game user can reset the game or if user wants to play game with differenct specifications he can go back to home and restart game. 
+Tic-Tac-Toe implemented using HTML, CSS and javascript.
+## Usage Instructions
+Its pretty easy to get this game runnning on your pc:
+<ol>
+<li> Download the repository and run Tic-Tac-Toe.html.
+</li>
+<li>
+This will show a window where you can select:
+<ul> 
+  <li>Game mode</li>
+  <ul>
+    <li>1 Player: Player vs Computer Mode</li>
+    <li>2 Player: Player vs Player Mode</li>
+  </ul>
+  <li>Player Turn</li>
+  <li>sign: Cross or zero</li>
+  <li>Start button to start the game</li>
+</ul>
+  </li>
+  <li>
+ Once start button is pressed you can make your moves, screen additionaly shows:
+  <ul> 
+  <li>Option to reset current board</li>
+    <li>Option to go back to Home page</li>
+    <li> Game status</li>
+    </li>
+</ul>
+</ol>
